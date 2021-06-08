@@ -1,0 +1,60 @@
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  transform: rotate(180deg);
+}
+
+.col-lg{
+  border-left-style: solid;
+}
+
+.col-lg-3{
+  border-right-style: solid;
+}
+
+hr{
+  border-top: 1px !important;
+  border-top-style: solid !important;
+  opacity: 1;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: gray;
+  text-align: center;
+  white-space: nowrap;
+  background-color: black;
+  transition: width 0.6s ease;
+}
+
+body{
+  font-family: 'Raleway' !important;
+}
+
+span{
+  opacity: 0.50;
+}
+
+p{
+  opacity: 0.50;
+}
+
+.btn-group{
+  display: flex;
+  justify-content: center;
+}
+
