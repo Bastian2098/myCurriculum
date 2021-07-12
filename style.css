@@ -1,4 +1,4 @@
-.accordion-button:not(.collapsed) {
+.accordion-button:not(.collapsed){
     color: black;
     background-color: white;
 }
@@ -57,4 +57,3 @@ p{
   display: flex;
   justify-content: center;
 }
-
